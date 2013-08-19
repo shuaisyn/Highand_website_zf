@@ -812,22 +812,22 @@ $primary-color: #32c1e2;
 // We use these to control the left/right nav styles
 
 // $orbit-nav-bg-old: rgb(0,0,0);
-// $orbit-nav-bg: rgba(0,0,0,0.6);
+$orbit-nav-bg: rgba(255,200,71,0.6);
 
 // We use these to control the timer styles
 
 // $orbit-timer-bg-old: rgb(0,0,0);
-// $orbit-timer-bg: rgba(0,0,0,0.6);
+$orbit-timer-bg: rgba(255,200,71,0.3);
 
 // We use these to control the bullet nav styles
 
-// $orbit-bullet-nav-color: #999;
-// $orbit-bullet-nav-color-active: #555;
+$orbit-bullet-nav-color: #eee;
+$orbit-bullet-nav-color-active: #ccc;
 
 // We use thes to controls the style of slide numbers
 
 // $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: #fff;
+// $orbit-slide-number-font-color: #eee;
 // $orbit-slide-number-padding: emCalc(5px);
 
 // Graceful Loading Wrapper and preloader
