@@ -1238,7 +1238,7 @@ $topbar-bg: #32c1e2;
 
 // Height and margin
 
-$topbar-height: 50px;
+$topbar-height: 70px;
 // $topbar-margin-bottom: emCalc(30);
 
 // Control Input height for top bar
@@ -1288,7 +1288,7 @@ $topbar-menu-icon-color-toggled: #ffffff;
 // Transitions and breakpoint styles
 
 // $topbar-transition-speed: 300ms;
-// $topbar-breakpoint: emCalc(940); // Change to 9999px for always mobile layout
+$topbar-breakpoint: 1px; // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 
 // Divider Styles
@@ -1301,3 +1301,9 @@ $topbar-menu-icon-color-toggled: #ffffff;
 // $topbar-sticky-class: ".sticky";
 
 @import 'foundation'; 
+
+.button1 {
+  @include button-base;
+  @include button-size($padding:1em);
+  @include button-style($bg:#ffffff);
+}
