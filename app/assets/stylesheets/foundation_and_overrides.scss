@@ -1304,6 +1304,6 @@ $topbar-breakpoint: 1px; // Change to 9999px for always mobile layout
 
 .button1 {
   @include button-base;
-  @include button-size($padding:1em);
+  @include button-size($padding:0.9em);
   @include button-style($bg:#ffffff);
 }
